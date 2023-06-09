@@ -1,0 +1,12 @@
+.col-md-5 {
+    background-color: blue;
+    margin: 20;
+    display: flex;
+    align-content: space-between;
+   
+    
+    height: 200;
+    
+}
+
+

@@ -1,0 +1,50 @@
+.col-2{
+    background-color:rgb(233, 233, 228);
+    min-height: 800px;
+}
+.navbar-expand-lg {
+    
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0px;
+}
+
+.container{
+    background-color: aqua;
+}
+.container-fluid{
+    background-color: rgb(6, 22, 44);
+   
+}
+.navbar-brand{
+    color: rgb(195, 201, 30);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px 250px 0px 20px;
+}
+
+.nav-item{
+    color: rgb(17, 131, 245);
+}
+.nav-link:hover{
+    color: rgb(231, 15, 87)
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #ffc107;
+}
+.nav-link{
+    font-size: medium
+    ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifxw;
+    color: rgb(236, 237, 238)
+
+}
+
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+}
